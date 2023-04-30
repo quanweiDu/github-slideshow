@@ -1,5 +1,6 @@
 name: My plan
 level: beginner
+update_id: 73c8228f-5ad9-4716-838a-1a6f373ec9ad
 author: Jit
 version: 0.1
 owners:
@@ -8,9 +9,7 @@ references:
   - https://www.jit.io
 tags: []
 items:
+  - name: Scan your infrastructure-as-code (IaC) for misconfigurations
+    uses: jitsecurity-controls/jit-plans/items/infrastructure/item-iac-misconfiguration-detection.yml@latest
   - name: Scan code for hard-coded secrets
     uses: jitsecurity-controls/jit-plans/items/code/item-secret-detection.yml@latest
-  - name: Scan your infrastructure-as-code (IaC) for misconfigurations
-    uses: >-
-      jitsecurity-controls/jit-plans/items/infrastructure/item-iac-misconfiguration-detection.yml@latest
-
